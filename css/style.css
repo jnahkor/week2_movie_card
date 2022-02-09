@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.movie-card {
+    display: flex;
+    align-items: center;
+    height: 70vh;
+    margin-top: 5rem;
+    background: linear-gradient(to right, rgba(31.5, 10.5, 10.5, 1) 150px, rgba(32, 11, 11, 0.726) 100%),
+    url('../images/background.jpg');
+background-size: cover;
+}
+
+.movie-poster-container {
+    height: 85%;
+    width: 20%;
+    text-align: right;
+    margin-left: 1rem;
+}
+
+.movie-poster {
+    height: 100%;
+    border-radius: 5px;
+}
+
+.movie-info-container {
+    height: 100%;
+    width: 80%;
+    color: #fff;
+    padding-top: 2rem;
+    margin-left: 1rem;
+}
+
+.movie-info-title {
+    text-transform: capitalize;
+}
+
+.movie-genres {
+    margin-top: 1rem;
+}
+
+.movie-rating {
+    border: 1px solid #777;
+    color: #777;
+    padding: 0.2rem;
+    border-radius: 5px;
+    margin-right: 00.5rem;
+}
+
+.movie-class {
+    margin-left: 0.5rem;
+}
+
+.movie-class:before {
+    content: "\2022";
+    margin-right: 0.5rem;
+}
+
+.movie-duration {
+    margin-left: 0.5rem;
+    letter-spacing: 0.1rem;
+}
+
+.movie-duration:before {
+    content: "\2022";
+    margin-right: 0.5rem;
+}
+
+.movie-info-actions {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.movie-info-actions ul {
+    list-style: none;
+}
+
+.movie-info-actions ul li {
+    display: inline-block;
+    margin-right: 1rem;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(3,37,65);
+    border-radius: 50%;
+}
+
+.movie-info-actions ul li a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.movie-info-actions ul li:hover {
+    font-size: 1.3rem;
+}
+
+.movie-info-quote {
+    font-style: italic;
+    font-weight: lighter;
+    color: gray;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.movie-info-overview-title {
+    text-transform: capitalize;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.movie-info-overview {
+    font-weight: 400;
+    margin-right: 2rem;
+
+}
+
+.movie-info-people {
+    list-style: none;
+    margin-top: 2rem;
+}
+
+.movie-info-people li {
+    display: inline-block;
+    margin-right: 12rem;
+    margin-bottom: 2rem;
+}
+
+.movie-info-people li p:first-child {
+    font-weight: 700;
+}
+
+footer {
+    margin-top: 2rem;
+    text-align: center;
+    color: gray;
+    margin-bottom: 2rem;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 0.5rem;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: gray;
+    font-size: 1.2rem;
+}
